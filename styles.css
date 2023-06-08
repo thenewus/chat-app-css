@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+body {
+    overflow: hidden;
+}
+.bg {
+    width: 610px;
+    height: 1118px;
+    border-radius: 295px;
+    position: absolute;
+    z-index: -1;
+}
+
+.purple {
+    background: linear-gradient(90deg, #8739FF, #E844FF);
+    left: -110px;
+    bottom: 100px;
+}
+
+.grey {
+    background: linear-gradient(90deg, #8739FF, #E844FF);
+    opacity: 3%;
+    top: 119px;
+    right: -220px;
+}
+
+
+.container {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.chat {
+    width: 247px;
+    height: 505px;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 0 30px 60px -10px rgba(62, 39, 83, 0.2512);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    width: 445px;
+    height: 183px;
+    margin-left: 125px;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47.4px;
+    color: #3E2753;
+}
+
+.main p {
+    margin-top: 24px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #A39DA9;
+}
+
+.back {
+    width: 228px;
+    height: 483px;
+    background-color: #F5F3F7;
+    border-radius: 20px;
+}
+
+.header {
+    width: 228px;
+    height: 66px;
+    background: linear-gradient(45deg, #8739FF, #E844FF);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.white-header {
+    width: 129px;
+    height: 20px;
+    background-color: white;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+    position: absolute;
+}
+
+.message1 {
+    width: 128px;
+    height: 34px;
+    background-color: #EEE5F4;
+    border-radius: 10px 10px 10px 4px;
+    margin-top: 11px;
+    margin-left: 7.5px;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    
+}
+.message2 {
+    width: 128px;
+    height: 34px;
+    background-color: #EEE5F4;
+    border-radius: 10px 10px 10px 4px;
+    margin-top: 8px;
+    margin-left: 7.5px;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+}
+
+
+.dogs {
+    margin-top: 16px;
+    margin-left: 84.5px;
+    display: flex;
+}
+.dogs img {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+}
+.one, .two {
+    margin-right: 8px;
+}
+
+.message3 {
+    width: 128px;
+    height: 34px;
+    background-color: white;
+    border-radius: 10px 10px 4px 10px;
+    margin-top: 8px;
+    margin-left: 92.5px;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+}
+
+.message4 {
+    width: 80px;
+    height: 23px;
+    background-color: white;
+    border-radius: 10px 10px 4px 10px;
+    margin-top: 8px;
+    margin-left: 140.5px;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+}
+
+.message5 {
+    width: 128px;
+    height: 45px;
+    background-color: #EEE5F4;
+    border-radius: 10px 10px 10px 4px;
+    margin-top: 16px;
+    margin-left: 7.5px;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+}
+
+.message6, .message7 {
+    width: 160px;
+    height: 32px;
+    background: linear-gradient(135deg, #E844FF, #8739FF);
+    border-radius: 10px 10px 10px 4px;
+    margin-top: 8px;
+    margin-left: 7.5px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.type {
+    width: 213px;
+    height: 33.91px;
+    background-color: white;
+    border-radius: 16.95px;
+    margin-top: 16px;
+    margin-left: 7.5px;
+    display: flex;
+    align-items: center;
+    
+}
+.send {
+    width: 24px;
+    height: 24px;
+    background-color: #3E2753;
+    border-radius: 50%;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 55px;
+    cursor: pointer;
+}
+
+.bx-chevron-right {
+    color: white;
+    font-size: 24px;
+}
+
+.type input {
+    width: 110px;
+    height: 14px;
+    margin-left: 19.42px;
+    border: none;
+    outline: none;
+}
+
+.profile {
+    display: flex;
+    margin-top: 30px;
+    width: 196px;
+    height: 24px;
+    align-items: center;
+    
+}
+.profimg {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin-left: 8px;
+    cursor: pointer;
+}
+.name {
+    margin-left: 8px;
+}
+
+.name p:nth-of-type(1) {
+    font-weight: 500;
+    font-size: 11px;
+    color: white;
+    line-height: 13.04px;
+    width: 74px;
+    
+}
+.name p:nth-of-type(2) {
+    font-weight: 400;
+    font-size: 8px;
+    color: white;
+    line-height: 9.48px;
+    color: #D99EFF;
+    margin-top: 2px;
+    width: 62px;
+}
+
+.bx-chevron-left {
+    color: white;
+    cursor: pointer;
+}
+
+.bx-menu-alt-right {
+    margin-left: 56px;
+    color: white;
+    cursor: pointer;
+}
+
+.message1 p {
+    font-size: 8px;
+    color: #9341C8;
+    line-height: 11px;
+    width: 112px;
+}
+
+.message2 p {
+    font-size: 8px;
+    color: #9341C8;
+    line-height: 11px;
+    width: 112px;
+}
+
+.message3 p {
+    font-size: 8px;
+    color: #6E5D7E;
+    line-height: 11px;
+    width: 112px;
+}
+.message4 p {
+    font-size: 8px;
+    color: #6E5D7E;
+    line-height: 11px;
+    width: 112px;
+}
+.message5 p {
+    font-size: 8px;
+    color: #9341C8;
+    line-height: 11px;
+    width: 112px;
+}
+
+.circle {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 1px solid #E472FF;
+}
+
+.message6 p:nth-of-type(1) {
+    font-size: 8px;
+    line-height: 11px;
+    color: white;
+    margin-left: 8px;
+}
+
+.message6 p:nth-of-type(2) {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 11px;
+    color: white;
+    margin-left: 35px;
+}
+.message7 p:nth-of-type(1) {
+    font-size: 8px;
+    line-height: 11px;
+    color: white;
+    margin-left: 8px;
+}
+
+.message7 p:nth-of-type(2) {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 11px;
+    color: white;
+    margin-left: 50px;
+}
+
+
+@media screen and (max-width: 550px){
+    body {
+        width: 550px;
+    }
+    .purple {
+        left: -320px;
+        top: -500px;
+    }
+    
+    .grey {
+        top: 500px;
+        left: 288px;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .main {
+        margin-top: 64px;
+        width: 400px;
+        margin-left: 0px;
+        text-align: center;
+    }
+}
